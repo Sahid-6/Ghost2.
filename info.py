@@ -51,9 +51,9 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Priyanshu:Priyanshu@cluster0.rbh9o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', '~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠•')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', '~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠•2.0')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
@@ -66,9 +66,9 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Itsstoic') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/mawh_request_group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+DDfIb-YW6LU3YzFl')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/mawhVerify/10')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/mawhOrzzflix')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+iMbgetn4vf45MDRl')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/mawh_Verify/11')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+-PbePn-lJFxmMDU1') # Support Chat Link Without https:// or @
 
 # True Or False
